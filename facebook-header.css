@@ -1,0 +1,103 @@
+.facebook-logo {
+  width: 80px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.facebook-search-bar {
+  border: none;
+  background-color: #3A3B3C;
+  color: #E4E6EB;
+  border-radius: 25px;
+  height: 39px;
+  width: 220px;
+  padding-left: 42px;
+  font-size: 17px;
+}
+
+.facebook-search .search-icon {
+  position: absolute;
+  width: 15px;
+  z-index: 300;
+  left: 12px;
+  top: 12px;
+}
+
+.facebook-search-container {
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #232527;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 5px;
+  z-index: 200;
+}
+
+.middle-section {
+  flex: 1;
+  margin-left: 170px;
+  align-items: center;
+  max-width: 1000px;
+}
+
+
+
+.icon-container {
+  color: gray;
+  display: flex;
+}
+
+.facebook-icon {
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.icon {
+  width: 50px;
+}
+
+.home-icon {
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.home-icon:hover {
+  opacity: 50%;
+}
+
+.right-section-icons {
+  color: white;
+  border: none;
+  background-color: #323438;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+  display: flex;
+  margin: 0px 5px 0px 5px;
+}
+
+.account-icon-container {
+  display: flex;
+}
+
+
+
+.right-section {
+  width: 180px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
